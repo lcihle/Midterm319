@@ -58,11 +58,11 @@ img {
     z-index: 3;
 }
 .ski-button img {
-    top: 400px;
-    left: 200px;
-    right: 100px;
-    width: 405px;
-    height: auto; /* Maintain aspect ratio */
+    top: 225px;
+    left: 950px;
+    right: 500px;
+    width: 400px;
+    height: 330px;
     transition: transform 0.3s ease; /* Transition effect on hover */
     z-index: 3;
 }
