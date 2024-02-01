@@ -13,3 +13,18 @@
     font-size: 24px; /* Set the font size */
     text-align: center;
 }
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label::after {
+    content: '';
+    display: block;
+    width: 1px; /* Adjust the width of the vertical line */
+    height: 100%; /* Adjust the height of the vertical line */
+    background-color: black; /* Adjust the color of the vertical line */
+    margin-left: 10px; /* Adjust the distance between the checkbox and the line */
+}
