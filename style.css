@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+   background: url('snowmountain.jpeg') center/cover no-repeat; 
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+   
+   
+}
+
+.header {
+    /*background-color: rgba(69, 220, 225, 0.8); /* Semi-transparent background color */
+    background-color: transparent; /* Semi-transparent background color */
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Ensure the header stays on top of the background image */
+}
+
+h1 {
+    color: black;
+    font: 24px monospace;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+    margin: 1;
+}
+
+img {
+    position: absolute;
+    top: 50%; /* Move the image 50% down from the top */
+    left: 50%; /* Move the image 50% from the left */
+    transform: translate(-50%, -50%); /* Center the image */
+    z-index: 2; /* Ensure the image stays on top of the background color */
+}
+.board-button {
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+}
+
+.board-button img {
+    top: 200px;
+    left: 500px;
+    right: 200px;
+    width: 400px;
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Transition effect on hover */
+    z-index: 3;
+}
+
+.board-button:hover img {
+    background-color: rgba(0, 0, 0, 0.5); /* Scale the image up on hover */
+}
+.ski-button {
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+}
+.ski-button img {
+    top: 400px;
+    left: 200px;
+    right: 100px;
+    width: 405px;
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Transition effect on hover */
+    z-index: 3;
+}
+
+.ski-button:hover img {
+    background-color: rgba(0, 0, 0, 0.5); /* Scale the image up on hover */
+}
+
