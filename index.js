@@ -51,7 +51,7 @@ function loadSkis(skisList) {
 
         <div class="card-body">
 
-        <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+        <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
 
         <div class="d-flex justify-content-between align-items-center">
 
@@ -166,7 +166,7 @@ function loadSkis(skisList) {
     
             <div class="card-body">
     
-            <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+            <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
     
             <div class="d-flex justify-content-between align-items-center">
     
@@ -241,7 +241,7 @@ function loadSkis(skisList) {
     
             <div class="card-body">
     
-            <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+            <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
     
             <div class="d-flex justify-content-between align-items-center">
     
@@ -340,7 +340,7 @@ function loadSkis(skisList) {
 
         <div class="card-body">
 
-        <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+        <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
 
         <div class="d-flex justify-content-between align-items-center">
 
@@ -436,7 +436,7 @@ function loadSkis(skisList) {
 
         <div class="card-body">
 
-        <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+        <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
 
         <div class="d-flex justify-content-between align-items-center">
 
@@ -524,7 +524,7 @@ function loadSkis(skisList) {
     
             <div class="card-body">
     
-            <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+            <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
     
             <div class="d-flex justify-content-between align-items-center">
     
@@ -609,7 +609,7 @@ function loadSkis(skisList) {
     
             <div class="card-body">
     
-            <p class="card-text"> <strong>${title}</strong>, ${year}$</p>
+            <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
     
             <div class="d-flex justify-content-between align-items-center">
     
