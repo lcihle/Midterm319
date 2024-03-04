@@ -1,0 +1,61 @@
+{
+    "snowboard": [
+        {
+            "skiName": "HometownHero",
+            "color": "Blue",
+            "url": "Burton2022FamilyTreeHometownHeroXCamberSplitboard.webp",
+            "style": "all-mountain",
+            "price": 350
+        },
+        {
+            "skiName": "FlightAttendant",
+            "color": "White",
+            "url": "BurtonFlightAttendantCamberSplitboard.webp",
+            "style": "freestyle",
+            "price": 375
+        },
+        {
+            "skiName": "Camber",
+            "color": "black",
+            "url": "BurtonProcessCamberSnowboard.webp",
+            "style": "all-mountain",
+            "price": 475
+        },
+        {
+            "skiName": "GWO",
+            "color": "White",
+            "url": "Gnu-GWO-Snowboard.jpg",
+            "style": "freestyle",
+            "price": 245
+      },
+      {
+        "skiName": "Frosting",
+        "color": "Grey",
+        "url": "GNUFrostingSnowboard.jpg",
+        "style": "all-mountain",
+        "price": 385
+        },
+        {
+            "skiName": "Hyper",
+            "color": "White",
+            "url": "GNUHyperSnowboard.jpg",
+            "style": "freestyle",
+            "price": 225
+        },
+        {
+            "skiName": "Montana",
+            "color": "Black",
+            "url": "Whitespace155Montano.webp",
+            "style": "all-mountain",
+            "price": 275
+        },
+        {
+            "skiName": "Shaun White Pro",
+            "color": "Black",
+            "url": "WhitespaceFreestyleShaunWhitePro.webp",
+            "style": "freestyle",
+            "price": 550
+        }
+        
+    ]
+  }
