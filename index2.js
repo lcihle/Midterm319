@@ -560,13 +560,13 @@ function loadSkis(skisList) {
     function sortGrey() {
         CardMovie.innerHTML = ``;
         var blackSkis = [];
-    var greySkis = [];
+        var greySkis = [];
 
     for (var i = 0; i < skisList.snowboard.length; i++) {
         var ski = skisList.snowboard[i];
 
         if (ski.color === "grey") {
-            grey.push(ski);
+            greySkis.push(ski);
         } 
     }
 
