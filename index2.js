@@ -739,7 +739,7 @@ function loadSkis(skisList) {
     document.getElementById('allMountain').addEventListener('click', allMountain);
     document.getElementById('sortBlack').addEventListener('click', sortBlack);
     document.getElementById('sortGrey').addEventListener('click', sortGrey);
-    document.getElementById('sortGrey').addEventListener('click', sortWhite);
+    document.getElementById('sortWhite').addEventListener('click', sortWhite);
 
    
 
