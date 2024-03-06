@@ -2,7 +2,7 @@
     "snowboard": [
         {
             "skiName": "Hometown Hero",
-            "color": "Blue",
+            "color": "blue",
             "url": "Burton2022FamilyTreeHometownHeroXCamberSplitboard.webp",
             "style": "all-mountain",
             "price": 350
@@ -44,14 +44,14 @@
         },
         {
             "skiName": "Montana",
-            "color": "Black",
+            "color": "black",
             "url": "Whitespace155Montano.webp",
             "style": "all-mountain",
             "price": 275
         },
         {
             "skiName": "Shaun White Pro",
-            "color": "Black",
+            "color": "black",
             "url": "WhitespaceFreestyleShaunWhitePro.webp",
             "style": "freestyle",
             "price": 550
