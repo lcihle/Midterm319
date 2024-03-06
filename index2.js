@@ -726,6 +726,91 @@ function loadSkis(skisList) {
         }
 
     }
+    function sortBlue() {
+        CardMovie.innerHTML = ``;
+        var whiteSkis = [];
+    var greySkis = [];
+
+    for (var i = 0; i < skisList.snowboard.length; i++) {
+        var ski = skisList.snowboard[i];
+
+        if (ski.color === "blue") {
+            whiteSkis.push(ski);
+        } 
+    }
+
+    // Combine the two arrays with freestyle skis first and all-mountain skis last
+   // var arr5 = whiteSkis.concat(greySkis);
+        for (var i = 0; i<whiteSkis.length; i++){
+
+ 
+
+            let title = whiteSkis[i].skiName;
+    
+            let year = whiteSkis[i].price;
+    
+            let url = whiteSkis[i].url;
+    
+     
+    
+            let checkbox = "checkbox" + i.toString();
+    
+            let card = "card" + i.toString();
+    
+           
+    
+            // create a new HTML div division
+    
+            let AddCardMovie = document.createElement("div");
+    
+            // add class = “col” to new division for Bootstrap
+    
+            AddCardMovie.classList.add("col");
+    
+            // create Bootstrap card
+            
+    
+            AddCardMovie.innerHTML = `
+    
+            
+    
+            <img src=${url} class="card-img-top" alt="..."></img>
+    
+            <div class="card-body">
+    
+            <p class="card-text"> <strong>${title}</strong>: ${year}$</p>
+    
+            <div class="d-flex justify-content-between align-items-center">
+    
+    
+            </div>
+    
+            
+    
+            </div>
+    
+            </div>
+    
+            </div>
+    
+            `;
+    
+            // append new division
+    
+            CardMovie.appendChild(AddCardMovie);
+    
+     
+    
+            let cbox = document.getElementById(checkbox);
+    
+            checkboxes.push(cbox);
+    
+            let ccard = document.getElementById(card);
+    
+            cards.push(ccard);
+        }
+
+    }
     
 
     // Add event listeners to sorting buttons
@@ -736,6 +821,7 @@ function loadSkis(skisList) {
     document.getElementById('sortBlack').addEventListener('click', sortBlack);
     document.getElementById('sortGrey').addEventListener('click', sortGrey);
     document.getElementById('sortWhite').addEventListener('click', sortWhite);
+    document.getElementById('sortBlue').addEventListener('click', sortBlue);
 
    
 
