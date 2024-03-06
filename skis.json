@@ -9,7 +9,7 @@
         },
         {
             "skiName": "Blue Beauty",
-            "color": "black",
+            "color": "blue",
             "url": "ski2.jpeg",
             "style": "freestyle",
             "price": 175
@@ -44,7 +44,7 @@
         },
         {
             "skiName": "Wavy Rider",
-            "color": "black",
+            "color": "blue",
             "url": "ski7.jpeg",
             "style": "all-mountain",
             "price": 240
