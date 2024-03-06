@@ -566,7 +566,7 @@ function loadSkis(skisList) {
         var ski = skisList.snowboard[i];
 
         if (ski.color === "grey") {
-         //   grey.push(ski);
+            grey.push(ski);
         } 
     }
 
@@ -651,9 +651,7 @@ function loadSkis(skisList) {
 
         if (ski.color === "white") {
             whiteSkis.push(ski);
-        } else if (ski.style === "grey") {
-           // greySkis.push(ski);
-        }
+        } 
     }
 
     // Combine the two arrays with freestyle skis first and all-mountain skis last
