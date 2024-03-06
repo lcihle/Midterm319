@@ -9,7 +9,7 @@
         },
         {
             "skiName": "FlightAttendant",
-            "color": "White",
+            "color": "white",
             "url": "BurtonFlightAttendantCamberSplitboard.webp",
             "style": "freestyle",
             "price": 375
@@ -23,7 +23,7 @@
         },
         {
             "skiName": "GWO",
-            "color": "White",
+            "color": "white",
             "url": "Gnu-GWO-Snowboard.jpg",
             "style": "freestyle",
             "price": 245
