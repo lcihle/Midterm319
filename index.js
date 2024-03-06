@@ -566,7 +566,7 @@ function loadSkis(skisList) {
         var ski = skisList.skis[i];
 
         if (ski.color === "grey") {
-         //   greySkis.push(ski);
+            greySkis.push(ski);
         }
     }
 
@@ -651,7 +651,7 @@ function loadSkis(skisList) {
         var ski = skisList.skis[i];
 
         if (ski.color === "blue") {
-         //   greySkis.push(ski);
+            greySkis.push(ski);
         }
     }
 
