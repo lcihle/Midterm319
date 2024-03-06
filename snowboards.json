@@ -30,14 +30,14 @@
       },
       {
         "skiName": "Frosting",
-        "color": "Grey",
+        "color": "grey",
         "url": "GNUFrostingSnowboard.jpg",
         "style": "all-mountain",
         "price": 385
         },
         {
             "skiName": "Hyper",
-            "color": "White",
+            "color": "white",
             "url": "GNUHyperSnowboard.jpg",
             "style": "freestyle",
             "price": 225
