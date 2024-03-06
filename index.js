@@ -642,7 +642,7 @@ function loadSkis(skisList) {
 
     }
 
-    function sortWhite() {
+    function sortBlue() {
         CardMovie.innerHTML = ``;
         var blackSkis = [];
     var greySkis = [];
@@ -650,7 +650,7 @@ function loadSkis(skisList) {
     for (var i = 0; i < skisList.skis.length; i++) {
         var ski = skisList.skis[i];
 
-        if (ski.color === "white") {
+        if (ski.color === "blue") {
          //   greySkis.push(ski);
         }
     }
@@ -734,7 +734,7 @@ function loadSkis(skisList) {
     document.getElementById('allMountain').addEventListener('click', allMountain);
     document.getElementById('sortBlack').addEventListener('click', sortBlack);
     document.getElementById('sortGrey').addEventListener('click', sortGrey);
-    document.getElementById('sortWhite').addEventListener('click', sortWhite);
+    document.getElementById('sortBlue').addEventListener('click', sortBlue);
 
    
 
