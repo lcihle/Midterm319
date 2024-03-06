@@ -1,14 +1,14 @@
 {
     "snowboard": [
         {
-            "skiName": "HometownHero",
+            "skiName": "Hometown Hero",
             "color": "Blue",
             "url": "Burton2022FamilyTreeHometownHeroXCamberSplitboard.webp",
             "style": "all-mountain",
             "price": 350
         },
         {
-            "skiName": "FlightAttendant",
+            "skiName": "Flight Attendant",
             "color": "white",
             "url": "BurtonFlightAttendantCamberSplitboard.webp",
             "style": "freestyle",
