@@ -1,6 +1,6 @@
 window.addEventListener('load', (event) => {
     // Your code here
-    fetch("skis.json")
+    fetch("data.json")
         .then(response => response.json())
         .then(skisList => loadSkis(skisList));
 });
